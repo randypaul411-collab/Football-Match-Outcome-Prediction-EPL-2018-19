@@ -21,8 +21,6 @@
 
 This project applies classical statistical modelling to predict football match outcomes in the English Premier League 2018/19 season. Using a **Poisson Generalised Linear Model (GLM)** fitted via Maximum Likelihood Estimation, each team's attack and defence strength parameters are estimated from historical match data. Match outcomes are then simulated using **Monte Carlo methods** with **bootstrap confidence intervals** to quantify prediction uncertainty.
 
-The methodology is grounded in actuarial risk theory — the same Poisson process framework used to model insurance claims and estimate ruin probabilities in my MPhil research at KNUST — applied here to sports analytics.
-
 ---
 
 ## Tools & Packages
